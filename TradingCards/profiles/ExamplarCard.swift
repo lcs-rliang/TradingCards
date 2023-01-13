@@ -18,6 +18,7 @@ struct ExamplarCard: View {
                 .font(.system(size: 15))
                 .foregroundColor(.white)
                 .shadow(color: Color.black, radius: 10)
+                .rotation3DEffect(.degrees(-10), axis: (x: 5, y: 0, z: 0))
                 .border(Color.red)
                 .frame(height: 10)
                 .padding(.bottom, 10)

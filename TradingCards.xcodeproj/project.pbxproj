@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		4C094D042970B0E7001B3A62 /* ExamplarCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C094D032970B0E7001B3A62 /* ExamplarCard.swift */; };
+		4C094D072970EA80001B3A62 /* 会员套餐.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C094D062970EA80001B3A62 /* 会员套餐.swift */; };
 		4CE3273A29707E4500CC1179 /* TradingCardsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CE3273929707E4500CC1179 /* TradingCardsApp.swift */; };
 		4CE3273C29707E4500CC1179 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CE3273B29707E4500CC1179 /* ContentView.swift */; };
 		4CE3273E29707E4700CC1179 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4CE3273D29707E4700CC1179 /* Assets.xcassets */; };
@@ -18,6 +19,7 @@
 
 /* Begin PBXFileReference section */
 		4C094D032970B0E7001B3A62 /* ExamplarCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExamplarCard.swift; sourceTree = "<group>"; };
+		4C094D062970EA80001B3A62 /* 会员套餐.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "会员套餐.swift"; sourceTree = "<group>"; };
 		4CE3273629707E4500CC1179 /* TradingCards.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TradingCards.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4CE3273929707E4500CC1179 /* TradingCardsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TradingCardsApp.swift; sourceTree = "<group>"; };
 		4CE3273B29707E4500CC1179 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -46,6 +48,15 @@
 			path = profiles;
 			sourceTree = "<group>";
 		};
+		4C094D052970EA4D001B3A62 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				4CE3274729707E6C00CC1179 /* SwiftUIView.swift */,
+				4C094D062970EA80001B3A62 /* 会员套餐.swift */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 		4CE3272D29707E4400CC1179 = {
 			isa = PBXGroup;
 			children = (
@@ -65,13 +76,13 @@
 		4CE3273829707E4500CC1179 /* TradingCards */ = {
 			isa = PBXGroup;
 			children = (
+				4C094D052970EA4D001B3A62 /* Resources */,
 				4C094D022970B042001B3A62 /* profiles */,
 				4CE3274929707F7B00CC1179 /* Model */,
 				4CE3273929707E4500CC1179 /* TradingCardsApp.swift */,
 				4CE3273B29707E4500CC1179 /* ContentView.swift */,
 				4CE3273D29707E4700CC1179 /* Assets.xcassets */,
 				4CE3273F29707E4700CC1179 /* Preview Content */,
-				4CE3274729707E6C00CC1179 /* SwiftUIView.swift */,
 			);
 			path = TradingCards;
 			sourceTree = "<group>";
@@ -166,6 +177,7 @@
 				4CE3273C29707E4500CC1179 /* ContentView.swift in Sources */,
 				4CE3273A29707E4500CC1179 /* TradingCardsApp.swift in Sources */,
 				4C094D042970B0E7001B3A62 /* ExamplarCard.swift in Sources */,
+				4C094D072970EA80001B3A62 /* 会员套餐.swift in Sources */,
 				4CE3274829707E6C00CC1179 /* SwiftUIView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
