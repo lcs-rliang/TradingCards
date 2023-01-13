@@ -28,7 +28,7 @@ struct ExamplarCard: View {
         .frame(width: 300, height:600)
         .background(LinearGradient(
             gradient: Gradient(
-            colors: [Color.gray, Color.orange]),
+                colors: [Color.gray, Color.orange]),
             startPoint: .topLeading,
             endPoint: .bottomTrailing))
     }

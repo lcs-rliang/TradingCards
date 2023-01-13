@@ -14,10 +14,10 @@ struct ____: View {
             continueslySubscribeView()
             
             //1个月
-            ExtractedView()
+            monthlyPriceView()
             
             //12个月
-            ExtractedView()
+            yearlyPriceView()
             
         }//HStack结束位置
         .padding(.horizontal)
@@ -67,7 +67,7 @@ struct continueslySubscribeView: View {
     }
 }
 
-struct ExtractedView: View {
+struct monthlyPriceView: View {
     var body: some View {
         VStack {
             Text("1个月")
@@ -88,7 +88,7 @@ struct ExtractedView: View {
     }
 }
 
-struct ExtractedView: View {
+struct yearlyPriceView: View {
     var body: some View {
         VStack {
             
