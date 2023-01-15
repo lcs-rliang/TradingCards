@@ -9,28 +9,41 @@ import SwiftUI
 
 struct ExamplarCard: View {
     var body: some View {
-        VStack{
+        ZStack {
             
-            Spacer(minLength: 300)
+            //Background Color
+            LinearGradient(
+                gradient: Gradient(
+                    colors: [Color.black, Color.gray]),
+                startPoint: .topLeading,
+                endPoint: .bottomTrailing)
+            .ignoresSafeArea()
             
-            Text("Whopper")
-                .fontWeight(.light)
-                .font(.system(size: 15))
-                .foregroundColor(.white)
-                .shadow(color: Color.black, radius: 10)
-                .rotation3DEffect(.degrees(-10), axis: (x: 5, y: 0, z: 0))
-                .border(Color.red)
-                .frame(height: 10)
-                .padding(.bottom, 10)
             
+            HStack {
+                
+                //character name
+                VStack{
+                    
+                    Spacer(minLength: 300)
+                    
+                    Text("Whopper")
+                        .fontWeight(.light)
+                        .font(.system(size: 15))
+                        .foregroundColor(.white)
+                        .shadow(color: Color.black, radius: 10)
+                        .rotation3DEffect(.degrees(-10), axis: (x: 5, y: 0, z: 0))
+                        .border(Color.red)
+                        .frame(height: 10)
+                        .padding(.trailing, 20)
+                    
+                    
+                }
+                
+            }
             
         }
-        .frame(width: 300, height:600)
-        .background(LinearGradient(
-            gradient: Gradient(
-                colors: [Color.gray, Color.orange]),
-            startPoint: .topLeading,
-            endPoint: .bottomTrailing))
+        
     }
     
     struct ExamplarCard_Previews: PreviewProvider {
